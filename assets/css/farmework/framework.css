@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.p-1 {
+  padding-left: 5px;
+}
+.flex {
+  display: flex;
+}
+.flex-1 {
+  flex: 1;
+}
+.flex-2 {
+  flex: 2;
+}
+.flex-3 {
+  flex: 3;
+}
+.flex-4 {
+  flex: 4;
+}
+.flex-5 {
+  flex: 5;
+}
+.gap-5 {
+  gap: 5;
+}
+.gap-10 {
+  gap: 10;
+}
+.gap-15 {
+  gap: 15;
+}
+.gap-20 {
+  gap: 20;
+}
+input,
+select,
+textarea {
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  border: 0.1px solid #ccc;
+  background-color: #efefef;
+  height: 40px;
+  padding: 9px;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-center-h {
+  justify-content: center;
+}
+.flex-center-v {
+  align-items: center;
+}
+ul {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+button {
+  cursor: pointer;
+}
+i {
+  color: #ccc;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.text-center {
+  text-align: center;
+}
+.fixed {
+  position: fixed;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.box {
+  box-shadow: 0px 4px 8px rgb(0 0 0/10%), 0px 12px 18px rgb(0 0 0 /10%);
+}
