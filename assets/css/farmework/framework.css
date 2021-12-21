@@ -27,16 +27,22 @@ body {
   flex: 5;
 }
 .gap-5 {
-  gap: 5;
+  gap: 5px;
 }
 .gap-10 {
-  gap: 10;
+  gap: 10px;
 }
 .gap-15 {
-  gap: 15;
+  gap: 15px;
 }
 .gap-20 {
-  gap: 20;
+  gap: 20px;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.nowrap {
+  flex-wrap: nowrap;
 }
 input,
 select,
@@ -94,4 +100,36 @@ i {
 }
 .box {
   box-shadow: 0px 4px 8px rgb(0 0 0/10%), 0px 12px 18px rgb(0 0 0 /10%);
+}
+.profile-picture img {
+  width: 50px;
+  border-radius: 50px;
+}
+.paginate-item {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: red;
+  font-size: 2.5rem;
+  color: white;
+}
+.paginate-item.text-center.active {
+  background-color: gray;
+}
+[class$="-xl"] {
+  width: 80%;
+  margin: 20px auto;
+}
+
+@media screen and (max-width: 900px) {
+  [class$="-xl"] {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+@media screen and(max-width:650px) {
+  [class$="-xl"] {
+    width: 95%;
+    margin: 20px auto;
+  }
 }
