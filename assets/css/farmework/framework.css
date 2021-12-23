@@ -5,6 +5,9 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+.sticky {
+  position: sticky;
+}
 .p-1 {
   padding-left: 5px;
 }
@@ -73,10 +76,15 @@ a {
 .flex-center-v {
   align-items: center;
 }
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
 ul {
   cursor: pointer;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 button {
   cursor: pointer;
@@ -117,19 +125,32 @@ i {
   background-color: gray;
 }
 [class$="-xl"] {
-  width: 80%;
+  width: 89%;
+  margin: 20px auto;
+}
+[class$="-m"] {
+  width: 70%;
   margin: 20px auto;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   [class$="-xl"] {
     width: 90%;
-    margin: 20px auto;
+  }
+  .menu-list-item h5 {
+    font-size: 1.2rem;
+  }
+  ul li a {
+    font-size: 1rem;
   }
 }
 @media screen and(max-width:650px) {
   [class$="-xl"] {
     width: 95%;
-    margin: 20px auto;
+  }
+}
+@media screen and(max-width:946px) {
+  [class$="-xl"] {
+    width: 95%;
   }
 }
